@@ -93,4 +93,15 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+    
+    /**
+     * Cambios para el atardecer
+     */
+    public void atardecer()
+    {
+        if (wall !=null)
+        {
+            sun.slowMoveVertical(80);
+        }
+    }
 }
